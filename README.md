@@ -1,6 +1,6 @@
 # Healthy McHealthface
 
-Nginx container that responds with 204 to IPv4 requests on the following ports:
+Nginx container that responds with 200 to IPv4 requests to `/health*` (503 to everything else) on the following ports:
 * 80
 * 443 (ssl)
 * 8000
